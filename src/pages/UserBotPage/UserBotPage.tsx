@@ -6,7 +6,7 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
 const UserBotPage: React.FC = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
