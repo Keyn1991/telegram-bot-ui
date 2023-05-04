@@ -4,7 +4,7 @@ import Backend from 'i18next-xhr-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 const fallbackLng = ['ua'];
-const availableLanguages = ['en', 'ua'];
+const availableLanguages = ['en', 'ua', 'ru'];
 
 i18n
   .use(Backend)
@@ -18,7 +18,7 @@ i18n
     debug: false,
     whitelist: availableLanguages,
     interpolation: {
-      escapeValue: false, // no need for react. it escapes by default
+      escapeValue: false,
     },
   });
 

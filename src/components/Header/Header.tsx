@@ -4,6 +4,8 @@ import { Button, Nav, Navbar, Image } from 'react-bootstrap';
 import styles from './Header.module.css';
 import { useTranslation } from 'react-i18next';
 
+
+
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
 
