@@ -30,12 +30,25 @@ const UserBotPage = () => {
               <div>
                 <div className="tn-atom">
                   <div>
-                    <div className="tn-atom">
+                    <div className={styles.image_img}>
                       <Image
                         width={300}
                         className="tn-atom__img"
                         src="https://static.tildacdn.com/tild3266-3436-4838-b963-653031663266/Group_42_1.jpg"
                       />
+
+                      <div className={styles.image}>
+                        <Image src="https://thumb.tildacdn.com/tild6130-6565-4364-b133-386366653964/-/resize/54x/-/format/webp/photo.png" />
+                      </div>
+                    </div>
+                    <div>
+                      <div className={styles.image_img_1}>
+                        <Image
+                          width={300}
+                          className="tn-atom__img"
+                          src="https://static.tildacdn.com/tild3030-3237-4866-a463-653934636566/Group_26.jpg"
+                        />
+                      </div>
                     </div>
                   </div>
                   <Image
@@ -48,6 +61,20 @@ const UserBotPage = () => {
                     className="tn-atom__img"
                     src="https://static.tildacdn.com/tild6235-3461-4466-b436-396665663533/6_1566.png"
                   />
+                  <Image
+                    className={styles.image}
+                    data-original="https://static.tildacdn.com/tild6130-6565-4364-b133-386366653964/photo.png"
+                    src="https://thumb.tildacdn.com/tild6130-6565-4364-b133-386366653964/-/resize/60x/-/format/webp/photo.png"
+                  />
+                </div>
+                <div>
+                  <div className={styles.image_img_2}>
+                    <Image
+                      width={300}
+                      className="tn-atom__img"
+                      src="https://static.tildacdn.com/tild6433-3135-4331-a662-373137633966/Group_27.jpg"
+                    />
+                  </div>
                 </div>
               </div>
             </Col>

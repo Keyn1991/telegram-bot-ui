@@ -2,6 +2,7 @@
     position: relative;
     left: 0; /* Початкова позиція зліва */
     animation: slidein 3s linear infinite;
+    bottom: 100px;
 }
 
 @keyframes slidein {
@@ -11,4 +12,23 @@
     to {
         left: 10px; /* Зміщення вправо на 10px */
     }
+}
+.image_img {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.image_img_1 {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.image_img_2 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-50%, -50%);
 }
