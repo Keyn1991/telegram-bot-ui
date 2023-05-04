@@ -3,6 +3,7 @@
     background: #f2f8fd;
     padding-top: 105px;
     padding-bottom: 60px;
+position: relative;
 }
 
 .userbot_text {
@@ -20,4 +21,8 @@
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgb(82, 104, 154);
+}
+.img_chat {
+    max-width: 100%;
+    height: auto;
 }

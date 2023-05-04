@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import './App.css';
 import { Header } from './components/Header';
@@ -9,7 +9,7 @@ import ActivationPage from './pages/ActivationPage/ActivationPage';
 import TablePage from './pages/TablePage/TablePage';
 import { UserBotPage } from './pages/UserBotPage';
 
-function App() {
+const App: FC = () => {
   return (
     <div className="App">
       <Header />
@@ -21,6 +21,5 @@ function App() {
       <Footer />
     </div>
   );
-}
-
+};
 export default App;

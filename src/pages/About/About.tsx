@@ -38,7 +38,12 @@ const About: React.FC = () => {
             </p>
           </Col>
           <Col className="w-50">
-            <Image src={bot} alt="chatBot" width={600} />
+            <Image
+              className={styles.img_chat}
+              src={bot}
+              alt="chatBot"
+              width={600}
+            />
           </Col>
         </Row>
       </Container>
