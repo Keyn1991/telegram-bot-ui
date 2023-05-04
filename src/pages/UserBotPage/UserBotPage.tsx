@@ -21,25 +21,25 @@ const UserBotPage: React.FC = () => {
           <hr />
           <Row container spacing={2} columns={20}>
             <Col className="w-50">
-              <h4>{t('A stable REST API for personal (numbered) Telegram for sending and reading messages via HTTP requests')}</h4>
-              <p>{t('To integrate numbered Telegram into CRM or any other system')}</p>
+              <h4>{t('top_bar')}</h4>
+              <p>{t('bar')}</p>
               <h6>
                 {' '}
                 <FaCheckCircle size={32} color="green" />
-                <span className={styles.text_span}>{t('You can write first')}</span>
-                {t('by phone number')}
+                <span className={styles.text_span}>{t('dsa')}</span>
+                {t('das')}
               </h6>
               <h6>
                 {' '}
                 <FaCheckCircle size={32} color="green" />
-                {t('There is a possibility')}{' '}
+                {t('Suqwepport')}{' '}
                 <span className={styles.text_span}>{t('read messages in groups')}</span>
               </h6>
               <h6>
                 {' '}
                 <FaCheckCircle size={32} color="green" />
                 {t('Possibility')}{' '}
-                <span className={styles.text_span}>{t('It is possible to communicate through the Telegram interface')} </span>
+                <span className={styles.text_span}>{t('Ofe')} </span>
               </h6>
             </Col>
             <Col className="w-50">
@@ -97,7 +97,7 @@ const UserBotPage: React.FC = () => {
           </Row>
           <Nav.Link href="https://lk.userbot-api.tech/#/login?next=/">
             <Button variant="success" className="rounded-pill px-4 ms-2 m-2">
-              {t('Try it for free')}
+              {t('free')}
             </Button>
           </Nav.Link>
         </Container>

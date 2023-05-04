@@ -2,14 +2,16 @@ import React from 'react';
 
 import styles from './ActivationPage.module.css';
 import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap';
+import {useTranslation} from "react-i18next";
 
 const ActivationPage: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div>
         <Container className={` w-50 mx-auto`}>
           <div className={styles.userbot_text}>
-            <h1>ШВИДКА І ЗРОЗУМАННЯ САМОСТІЙНА АКТИВАЦІЯ ОБЛІКОВОГО ЗАПИСУ</h1>
+            <h1>{t('text6')}</h1>
           </div>
 
           <hr />
