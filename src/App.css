@@ -1,5 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+
+body {
+  background-image: url('assets/images/bakgraund.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

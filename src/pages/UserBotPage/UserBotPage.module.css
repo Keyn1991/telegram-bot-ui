@@ -1,0 +1,14 @@
+.image {
+    position: relative;
+    left: 0; /* Початкова позиція зліва */
+    animation: slidein 3s linear infinite;
+}
+
+@keyframes slidein {
+    from {
+        left: 0; /* Початкова позиція зліва */
+    }
+    to {
+        left: 10px; /* Зміщення вправо на 10px */
+    }
+}

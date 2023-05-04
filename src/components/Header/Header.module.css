@@ -1,7 +1,16 @@
-.header {
-    position: fixed;
+.main {
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+
+}
+
+.navLink {
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: red;
 }
